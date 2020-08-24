@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Porfolio</title>
+<link href="Site.css" rel="stylesheet" type="text/css">
+<script src="jquery-2.1.4.min.js"></script>
+<script src="typed.js@2.0.11"></script>
+<link href="font-awesome.min.css">
+<link rel="stylesheet" href="bootstrap.min.js">
+<script src="jquery-3.5.1.slim.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="smoothscroll.js"></script>
+<link rel="stylesheet" href="lightbox.min.css">
+</head>
+
+<body>
+<div class="menu">
+<ul>
+<li><a href="#trangmot">Home</a></li>
+<li><a href="#tranghai">About</a></li>
+<li><a href="#trangba">Product</a></li>
+<li><a href="#trangbon">Contact</a></li>
+</ul>
+</div>
+<div class="Demo" id="trangmot">
+	<h2>I'm <span class="gochu">Thuy Tien</span></h2>
+	<span id="typed"></span>
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<script>
+	var typed = new Typed('.gochu', {
+  // Waits 1000ms after typing "First"
+  strings: ['in HCM City', 'Designer'],
+	typeSpeed: 70,
+	backSpeed: 70,
+	loop: true,
+	});
+	</script>
+	<button class="button"><span>Contact Me</span></button>
+	<a class="mouse bounce" href="#"><i class="fa fa-angle-down"></i></a>
+</div>
+
+<div class="noidung" id="tranghai" style="background: white;">
+		
+		<div class="info1" >
+			<p1>About</p1>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+			<div class="hinh">
+				<img src="IMG_0159.JPG" alt="hinh">
+				<div class="ovuong"></div>
+			</div>
+		</div>
+
+ <div class="sanpham" id="trangba" style= "background-color: bisque;"> 
+		<div class="info2">
+  		<p2>Product</p2>
+		</div>
+<div class="row"> 
+  <div class="column">
+    <a class="example-image-link" href="1.png" data-lightbox="example-set" ><img src="1.png" style="width:25%"/>
+	 <a class="example-image-link" href="9.png" data-lightbox="example-set" ><img src="9.png" style="width:25%"/>
+	 <a class="example-image-link" href="5.jpg" data-lightbox="example-set" ><img src="5.jpg" style="width:25%"/>
+	  <a class="example-image-link" href="10.jpg" data-lightbox="example-set" ><img src="10.jpg" style="width:25%"/>
+     <a class="example-image-link" href="3.png" data-lightbox="example-set" ><img src="3.png" style="width:25%"/>
+     <a class="example-image-link" href="4.jpg" data-lightbox="example-set" ><img src="4.jpg" style="width:25%"/>
+	 <a class="example-image-link" href="8.jpg" data-lightbox="example-set" ><img src="8.jpg" style="width:25%"/>
+	  <a class="example-image-link" href="6.jpg" data-lightbox="example-set" ><img src="6.jpg" style="width:25%"/>
+     <a class="example-image-link" href="7.jpg" data-lightbox="example-set" ><img src="7.jpg" style="width:25%"/>
+  </div>
+</div>
+</div>
+	
+<div class="lienhe">
+	<div class="info3" id="trangbon">
+  		<p3>Contact</p3>
+	</div>
+	<div class="container">
+  	<form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  	</form>
+	</div>
+
+</div>
+</body>
+</html>
